@@ -1,0 +1,87 @@
+{
+  "type": "FeatureCollection",
+  "name": "synthetic_flood_extent",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "event_name": "Koshi River Monsoon Inundation (Synthetic Scenario)",
+        "simulation_date": "2024-07-12",
+        "sensor_simulation": "Sentinel-1 SAR C-Band (Simulated Backscatter Difference < -3.2 dB)",
+        "confidence": "High",
+        "severity": "Major Flood Event",
+        "is_synthetic": true,
+        "disclaimer": "SYNTHETIC DEMONSTRATION DATA - Illustrative scenario for FloodWatch Nepal, not real satellite observation."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [86.97, 26.54],
+            [87.05, 26.53],
+            [87.10, 26.58],
+            [87.14, 26.65],
+            [87.12, 26.74],
+            [87.08, 26.80],
+            [87.03, 26.82],
+            [86.99, 26.75],
+            [86.96, 26.66],
+            [86.95, 26.59],
+            [86.97, 26.54]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "event_name": "Koshi River Eastern Embankment Overflow (Synthetic Scenario)",
+        "simulation_date": "2024-07-12",
+        "sensor_simulation": "Sentinel-1 SAR C-Band (Simulated Backscatter Difference < -3.2 dB)",
+        "confidence": "Moderate to High",
+        "severity": "Flash Inundation Overflow",
+        "is_synthetic": true,
+        "disclaimer": "SYNTHETIC DEMONSTRATION DATA - Illustrative scenario for FloodWatch Nepal, not real satellite observation."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [87.11, 26.62],
+            [87.19, 26.61],
+            [87.21, 26.67],
+            [87.17, 26.71],
+            [87.13, 26.68],
+            [87.11, 26.62]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "event_name": "Saptari Western Lowland Backwater (Synthetic Scenario)",
+        "simulation_date": "2024-07-12",
+        "sensor_simulation": "Sentinel-1 SAR C-Band (Simulated Backscatter Difference < -3.2 dB)",
+        "confidence": "Moderate",
+        "severity": "Agricultural Plain Inundation",
+        "is_synthetic": true,
+        "disclaimer": "SYNTHETIC DEMONSTRATION DATA - Illustrative scenario for FloodWatch Nepal, not real satellite observation."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [86.88, 26.52],
+            [86.96, 26.51],
+            [86.97, 26.58],
+            [86.91, 26.60],
+            [86.87, 26.55],
+            [86.88, 26.52]
+          ]
+        ]
+      }
+    }
+  ]
+}
